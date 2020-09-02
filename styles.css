@@ -62,6 +62,23 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
+header#experience{
+  background: url('images/experience.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+header h1#exptext{
+  margin-top: 167px;
+}
+
+header h1#exptext:hover{
+  transform: scale(1.2) rotate(2deg);
+  color: green;
+}
+
+
 header {
   line-height: 1.5;
 }
@@ -69,12 +86,12 @@ header .profile-image {
   margin-top: 50px;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1);
 }
 .tag {
   background-color: #efefef;
@@ -100,6 +117,10 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+
+.exp:hover{
+  border-color: green;
 }
 
 ul.skills {
