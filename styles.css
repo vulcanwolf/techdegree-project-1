@@ -69,6 +69,12 @@ header#experience{
   overflow: hidden;
 }
 
+header#hobbies{
+  background: url('images/hobbies.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+}
+
 header h1#exptext{
   margin-top: 167px;
 }
@@ -76,6 +82,10 @@ header h1#exptext{
 header h1#exptext:hover{
   transform: scale(1.2) rotate(2deg);
   color: green;
+}
+
+.hobby-img{
+  max-width: 400px;
 }
 
 
